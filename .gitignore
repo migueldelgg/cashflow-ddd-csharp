@@ -1,0 +1,48 @@
+# ----------------------------
+# Build outputs
+# ----------------------------
+/src/CashFlowAPI/bin/
+/src/CashFlowAPI/obj/
+/src/CashFlowAPI/out/
+
+# ----------------------------
+# Visual Studio / Rider configs
+# ----------------------------
+.vs
+/src/CashFlowAPI/.vs/
+/src/CashFlowAPI/.idea/
+/src/CashFlowAPI/*.suo
+/src/CashFlowAPI/*.user
+/src/CashFlowAPI/*.userosscache
+/src/CashFlowAPI/*.sln.docstates
+
+# ----------------------------
+# Logs e temporários
+# ----------------------------
+*.log
+*.tlog
+*.tmp
+*.temp
+
+# ----------------------------
+# Pacotes NuGet restauráveis
+# ----------------------------
+/src/CashFlowAPI/packages/
+/src/CashFlowAPI/project.lock.json
+/src/CashFlowAPI/project.fragment.lock.json
+*.nupkg
+
+# ----------------------------
+# Configurações locais
+# ----------------------------
+/src/CashFlowAPI/appsettings.Development.json
+/src/CashFlowAPI/appsettings.Local.json
+/src/CashFlowAPI/secrets.json
+/src/CashFlowAPI/.env
+
+# ----------------------------
+# Testes
+# ----------------------------
+/src/CashFlowAPI/TestResults/
+/src/CashFlowAPI/coverage.cobertura.xml
+/src/CashFlowAPI/coverage.opencover.xml
