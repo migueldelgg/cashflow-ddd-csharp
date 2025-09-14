@@ -3,12 +3,12 @@
     <File Path=".gitignore" />
   </Folder>
   <Folder Name="/src/">
-    <Project Path="W:/c# projetos/CashFlow/src/CashFlow.Application/CashFlow.Application.csproj" />
-    <Project Path="W:/c# projetos/CashFlow/src/CashFlow.Communication/CashFlow.Communication.csproj" />
-    <Project Path="W:/c# projetos/CashFlow/src/CashFlow.Domain/CashFlow.Domain.csproj" />
-    <Project Path="W:/c# projetos/CashFlow/src/CashFlow.Exception/CashFlow.Exception.csproj" />
-    <Project Path="W:/c# projetos/CashFlow/src/CashFlow.Infrastructre/CashFlow.Infrastructre.csproj" />
-    <Project Path="W:/c# projetos/CashFlow/src/CashFlowAPI/CashFlowAPI.csproj" />
+    <Project Path="src/CashFlow.Application/CashFlow.Application.csproj" />
+    <Project Path="src/CashFlow.Communication/CashFlow.Communication.csproj" />
+    <Project Path="src/CashFlow.Domain/CashFlow.Domain.csproj" />
+    <Project Path="src/CashFlow.Exception/CashFlow.Exception.csproj" />
+    <Project Path="src/CashFlow.Infrastructre/CashFlow.Infrastructre.csproj" />
+    <Project Path="src/CashFlowAPI/CashFlowAPI.csproj" />
   </Folder>
   <Folder Name="/tests/" />
 </Solution>

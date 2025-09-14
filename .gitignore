@@ -19,7 +19,7 @@ out/
 *.sln.docstates
 
 # ----------------------------
-# Logs e temporários
+# Logs e temporï¿½rios
 # ----------------------------
 *.log
 *.tlog
@@ -27,7 +27,7 @@ out/
 *.temp
 
 # ----------------------------
-# Pacotes NuGet restauráveis
+# Pacotes NuGet restaurï¿½veis
 # ----------------------------
 packages/
 project.lock.json
@@ -36,7 +36,7 @@ project.fragment.lock.json
 *.snupkg
 
 # ----------------------------
-# Configurações locais
+# Configuraï¿½ï¿½es locais
 # ----------------------------
 appsettings.Development.json
 appsettings.Local.json
@@ -58,3 +58,32 @@ coverage.opencover.xml
 # ----------------------------
 *.DS_Store
 Thumbs.db
+
+
+/src/CashFlowAPI/bin/
+/src/CashFlowAPI/obj/
+/src/CashFlowAPI/out/
+
+/src/CashFlow.Application/bin/
+/src/CashFlow.Application/obj/
+/src/CashFlow.Application/out/
+
+/src/CashFlow.Infrastructure/bin/
+/src/CashFlow.Infrastructure/obj/
+/src/CashFlow.Infrastructure/out/
+
+/src/CashFlow.Infrastructure/bin/
+/src/CashFlow.Infrastructure/obj/
+/src/CashFlow.Infrastructure/out/
+
+/src/CashFlow.Communication/bin/
+/src/CashFlow.Communication/obj/
+/src/CashFlow.Communication/out/
+
+/src/CashFlow.Domain/bin/
+/src/CashFlow.Domain/obj/
+/src/CashFlow.Domain/out/
+
+/src/CashFlow.Exception/bin/
+/src/CashFlow.Exception/obj/
+/src/CashFlow.Exception/out/
