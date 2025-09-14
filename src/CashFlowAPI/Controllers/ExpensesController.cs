@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using CashFlow.Communication.Requests;
-using Microsoft.AspNetCore.Mvc.Formatters;
 using CashFlow.Application.UseCases.Expenses.Register;
+using CashFlow.Communication.Responses;
+using CashFlow.Exception.ExceptionsBase;
 
 namespace CashFlowAPI.Controllers;
 
@@ -15,7 +16,7 @@ public class ExpensesController : ControllerBase
     {
         var useCase = new RegisterExpenseUseCase();
         var response = useCase.Execute(request);
-
+        
         return Created(string.Empty, response);
     }
 }
